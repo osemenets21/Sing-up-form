@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <title>Exercise 2</title>
+  </head>
+  <body>
+    <form name="createYourAccount" class="firstForm">
+      <header>Create your account</header>
+      <div class="wrapper">
+        <h4 class="text">First name</h4>
+        <input type="text" name="firstName" required />
+        <h4 class="text">Second name</h4>
+        <input type="text" name="secondName" required />
+        <h4 class="text">Email address</h4>
+        <input type="email" name="emailAddress" class="formCreate" required />
+        <p>
+          <label
+            ><input
+              type="radio"
+              name="choice"
+              value="man"
+              class="radio"
+              checked
+              required
+            /><span></span> men
+          </label>
+          <label
+            ><input
+              type="radio"
+              name="choice"
+              value="woman"
+              class="radio"
+              required
+            /><span></span> woman</label
+          >
+        </p>
+        <h4 class="text">Position</h4>
+        <select name="position" id="select" required>
+          <option value="...">...</option>
+          <option value="Fronted">Frontend</option>
+          <option value="Backend">Backend</option>
+          <option value="QCQA">QC/QA</option>
+        </select>
+        <input type="checkbox" name="checkbox" id="checkbox" required />
+        <label for="checkbox">I agree all statements in Terms of service</label>
+        <button type="submit" id="button" name="singUp">Sing Up</button>
+      </div>
+    </form>
+    <div class="profile hidden">
+      <div class="colorProfile"></div>
+      <div class="imgProfile"></div>
+      <h4 class="nameProfile"></h4>
+      <p class="emailProfile"></p>
+      <p class="positionProfile"></p>
+      <hr />
+      <form>
+        <button type="submit" name="singOut" class="singOut">SingOut</button>
+      </form>
+      <div class="footerColor">
+        <a href="https://www.facebook.com/" target="_blank"
+          ><i class="uil uil-facebook-f"></i
+        ></a>
+        <a href="https://github.com/" target="_blank"
+          ><i class="uil uil-github-alt"></i
+        ></a>
+        <a href="https://www.linkedin.com/" target="_blank"
+          ><i class="uil uil-linkedin-alt"></i
+        ></a>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,210 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+form:first-child {
+    width: 495px;
+    height: 509px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+header {
+    width: 100%;
+    height: 45px;
+    background-color: rgb(0, 179, 0);
+    border-radius: 7px 7px 0 0;
+    color: white;
+    text-align: center;
+    line-height: 45px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    width: 400px;
+    margin: 0 auto;
+    height: 418px;
+    padding-top: 30px;
+
+}
+
+.text {
+    margin: 12px 0 5px 0;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(90, 90, 90);
+}
+
+.text:last-child {
+    margin: 5px 0;
+}
+
+input {
+    width: 100%;
+    height: 30px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+input:focus {
+    box-shadow: 0 0 5px 5px skyblue;
+    border: none;
+}
+
+input[type='radio'], input[type='checkbox'] {
+    box-shadow: none;
+}
+
+.radio {
+    width: 13px;
+    height: 13px;
+}
+
+label {
+    font-size: 17px;
+}
+
+#email {
+    margin-bottom: 10px;
+}
+
+select {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 5px;
+    outline: none;
+}
+
+select:focus {
+    box-shadow: 0 0 5px 5px skyblue;
+    border: none;
+}
+
+#checkbox {
+    width: 13px;
+    height: 13px;
+}
+
+#button {
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(146, 169, 156);
+    margin-top: 15px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+#button:focus {
+    background-color: green;
+}
+
+.hidden {
+    display: none;
+}
+
+.profile {
+    width: 400px;
+    height: 441px;
+    border: 2px solid rgb(152, 152, 152);
+    margin: 50px auto;
+    border-radius: 10px;
+    position: relative;
+}
+
+.colorProfile {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(0, 179, 0);
+    border-radius: 7px 7px 0 0;
+}
+
+.imgProfile {
+    border: 6px solid rgb(255, 255, 255);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: -50px auto;
+    background-color: #fff;
+    background-position: center center;
+    background-size: contain;
+
+}
+
+.imgMen {
+    background-image: url(images/men.png);
+
+}
+
+.imgWomen {
+    background-image: url(images/woman.png);
+}
+
+.nameProfile {
+    text-align: center;
+    margin-top: 75px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.emailProfile {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.positionProfile {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+
+}
+
+hr {
+    position: absolute;
+    bottom: 112px;
+    width: 100%;
+}
+
+.singOut {
+    width: 105px;
+    height: 41px;
+    border-radius: 10px;
+    background-color: rgb(0, 174, 0);
+    border: 1px inset rgb(6, 120, 27);
+    position: absolute;
+    color: #fff;
+    right: 139px;
+    bottom: 62px;
+}
+
+.singOut:hover  {
+    border: 2px solid gray;
+    background-color: rgb(0, 121, 0);
+}
+
+.footerColor {
+    background-color: rgb(0, 179, 0);
+    width: 100%;
+    height: 53px;
+    position: absolute;
+    bottom: 0;
+    border-radius: 0 0 7px 7px;
+    color: rgb(246, 248, 250);
+    font-size: 25px;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.uil {
+    color: #fff;
+}
+
